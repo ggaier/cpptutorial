@@ -90,5 +90,7 @@ int main(int argc, char const *argv[])
 
     cout << recte.area() << ", " << rectf.area() << endl;
 
+    Circle * ca = new Circle(15);
+
     return 0;
 }
