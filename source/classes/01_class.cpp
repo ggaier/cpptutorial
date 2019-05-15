@@ -90,6 +90,7 @@ int main(int argc, char const *argv[])
 
     cout << recte.area() << ", " << rectf.area() << endl;
 
+    //cpp中的 member initialization 和 dart 中的成员的初始化是一样的.
     Circle * ca = new Circle(15);
 
     return 0;
